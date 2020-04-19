@@ -14,12 +14,12 @@ class Shoe
   end
 
   def brand=(brand)
-    @brand = brand 
+    @brand = brand
     if brand.none? {|item| item == brand}
       BRANDS << brand
     end
 
   end
-  
+
 
 end
